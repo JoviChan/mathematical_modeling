@@ -24,7 +24,7 @@ struct node {
         this->y = c;
     }
     node(){}
-    bool operator < (const node &i) const {return x == i.x;}
+    bool operator < (const node &i) const {return x < i.x;}
 };
 
 
